@@ -1,0 +1,367 @@
+table{
+  margin: 0 auto;
+  width: 100%;
+  clear: both;
+  border-collapse: collapse;
+  table-layout: fixed; 
+  word-wrap:break-word;
+}
+.check-exists input {
+  outline:none;
+}
+.content-wrapper{
+  position:relative;
+}
+.main-sidebar {
+  position : fixed;
+}
+.logo{
+  position : fixed;
+}
+#accountTable_paginate{
+  margin-right:370px;
+}
+#accountTable_filter{
+  display:none; 
+}
+#myTable_paginate{
+  margin-right:370px;
+}
+#itemTable_filter{
+  display:none; 
+}
+#itemTable_paginate{
+  margin-right:370px;
+}
+table.dataTable.no-footer {
+    border-bottom: 1px solid #f0f0f0;
+}
+.box-header {
+  margin-top: 10px;
+}
+.container{
+  width: 100% !important;
+  /* background: #fff; */
+}
+.search-input-date{
+  margin-bottom : 5px;
+}
+.whitetext{
+  color: #f0f0f0;
+}
+.selected a{
+  color: white !important;
+}
+.ban{
+  color:red;
+  cursor: pointer;
+}
+.active{
+  cursor: pointer;
+  color:green;
+}
+.width1percent{
+  width: 1%;
+}
+.width2percent{
+  width: 2%;
+}
+.width3percent{
+  width: 3%;
+}
+.width5percent{
+  width: 5%;
+}
+.width8percent{
+  width: 8%;
+}
+.width12percent{
+  width: 12%;
+}
+.width28percent{
+  width: 28%;
+}
+.width100percent{
+  width: 100% !important;
+}
+.top-right>links{
+  float: right;
+}
+.links{
+  background: #ECF0F5;
+  height: 22px;
+}
+.links form select{
+  float: right;
+  margin-right: 15px;
+}
+.white_backg{
+  background:white;
+}
+.margin_30_top{
+  margin-top:30px;
+}
+.margin_minus_7_left{
+  margin-left:-7px !important;
+}
+.margin_minus_15_left{
+  margin-left:-15px;
+}
+.margin_20_left{
+  margin-left:20px;
+}
+.change_status_box{
+  float:right;
+  position:relative;
+  top:-30px;
+  right:-165px;
+}
+#action {
+font-size: 18px;
+cursor: pointer;
+margin: 0 auto;
+width: 100%;
+clear: both;
+border-collapse: collapse;
+table-layout: fixed; 
+word-wrap:break-word;
+}
+.select-input-status {
+  cursor: pointer;
+  color: blue; 
+}
+.row-account{
+  margin-top: -40px;
+}
+hr{
+  border-top: 1px solid black;
+}
+.username{
+  margin-bottom: -22px; 
+}
+
+.select-input-account-status{
+  float: right;
+  position: absolute;
+  top: 7px;
+  right: 12px;
+}
+
+p {
+  margin: 0 0 0px;
+}
+.thumb {
+  margin-top: 20px;
+  margin-left:-16px;
+  width: 250px;
+  height: 180px;
+  background-color: white;
+  background-image: none;
+  background-position: center center;
+  background-size: cover;
+} 
+.row{
+  margin-left: -10px;
+}
+.bold_words{
+font-size: 22px;
+font-weight: bold;
+line-height: 180%
+}
+.images{
+margin-top: -10px;
+width: 1130px;
+height:500px
+}
+.price{
+color: red; 
+font-size: 40px; 
+}
+.status{
+margin-left: 0px;
+}
+.type{
+margin-left: 15px;
+
+}
+.hr{
+margin-top: -4px;
+height:2px;
+border:none;
+color:#333;
+background-color:#333;
+}
+.map{
+margin-top: 15px;
+margin-left: -1px;
+height:500px;
+frameborder:0;
+border:0;
+}
+.box-header-detail{
+margin-top: -10px;
+margin-left: 10px;   
+}
+.body_detail{
+  margin-top: 0px;    
+  margin-left: -16px; 
+}
+.new_brand {
+  margin-left: 199px;
+  margin-top: 19px;
+}
+.taken {
+  border-color: red !important;
+}
+.available {
+  border-color: green !important;
+}
+#add {
+  margin-left: 30px;
+}
+textarea:focus, input:focus {
+  outline: none;
+}
+.icon-center {
+  text-align: center;
+}
+/* on-off switch css */
+.onoffswitch {
+  position: relative; width: 120px;
+  -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+  margin-left: 10px;
+  float:left;
+}
+.onoffswitch-checkbox {
+  display: none;
+}
+.onoffswitch-label {
+  display: block; overflow: hidden; cursor: pointer;
+  border: 2px solid #999999; border-radius: 0px;
+}
+.onoffswitch-inner {
+  display: block; width: 200%; margin-left: -100%;
+  transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+  display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 26px;
+  font-size: 11px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+  box-sizing: border-box;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+.onoffswitch-inner:before {
+  content: "Active";
+  padding-left: 10px;
+  background-color: green; color: white;
+}
+.onoffswitch-inner:after {
+  content: "Inactive";
+  padding-right: 10px;
+  background-color: red; color: white;
+  text-align: right;
+}
+.onoffswitch-switch {
+  font-family: FontAwesome;
+  display: block; width: 40px; margin: 0px;
+  background: white;
+  position: absolute; top: 3px; bottom: 2px;right: 2px;
+  right: 78px;
+  height: 28px;
+  transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+  margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+  right: 4px ; 
+  font-family: FontAwesome;
+  background-color: white; 
+}
+.alert-box {
+  float: left;
+  width: 30px;
+  text-align: center;
+  height: 34px;
+  margin-top: 5px;
+  margin-right: -9px;
+}
+.hang {
+  top: 3px;
+  right: 15px;
+  position: absolute;
+}
+/* end on-off sw */
+/* start */
+.fa.disabled,
+.fa[disabled],
+.disabled > .fa,
+[disabled] > .fa {
+  opacity: 0.5;
+  pointer-events: none
+}
+
+/* end */
+.charts {
+  height: 500px;
+  float: none;
+
+}
+div.well{
+  height: 75px;
+}
+.well-content{
+  float: right;
+  margin-top: 5px;
+}
+.bg-success{
+  width: 15px;
+  float: left;
+  background: none;
+}
+.bg-success i{
+  font-size: 25px;
+  font-weight: bold;
+}
+.bg-success.date{
+  width: 170px;
+  text-align: center;
+  padding-top: 2px;
+  padding-right: 9px;
+}
+.btn-group.btn-group-toggle{
+  float: right;
+  margin-right: 30px;
+}
+.btn-group.btn-group-toggle label{
+  background: #ccc;
+  border: none;
+}
+.btn-group.btn-group-toggle label.active{
+  background: #4EAF4E;
+}
+#loaderDiv {
+  width:100%;height:100%;position:  fixed;z-index: 99;background:  #fff;text-align:  center; display:none;
+}
+#list_item_okxe{
+  width: 50%;
+}
+.product-wrapper{
+  background: #fff;
+}
+#chart_div2{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.padding_30_bottom{
+  padding-bottom: 30px;
+}
+.bold {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.statistics {
+  margin-left: 30px;
+}

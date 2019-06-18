@@ -1,0 +1,9 @@
+/vendor
+/node_modules
+/public/storage
+/public/dist/js/charts.js
+package.json
+package-lock.json
+Homestead.yaml
+Homestead.json
+.env
